@@ -1,0 +1,15 @@
+D:\programowanie\KursMicrosoft\Nokia1\obj\Debug\net7.0\Nokia1.csproj.AssemblyReference.cache
+D:\programowanie\KursMicrosoft\Nokia1\obj\Debug\net7.0\Nokia1.GeneratedMSBuildEditorConfig.editorconfig
+D:\programowanie\KursMicrosoft\Nokia1\obj\Debug\net7.0\Nokia1.AssemblyInfoInputs.cache
+D:\programowanie\KursMicrosoft\Nokia1\obj\Debug\net7.0\Nokia1.AssemblyInfo.cs
+D:\programowanie\KursMicrosoft\Nokia1\obj\Debug\net7.0\Nokia1.csproj.CoreCompileInputs.cache
+D:\programowanie\KursMicrosoft\Nokia1\bin\Debug\net7.0\Nokia1.exe
+D:\programowanie\KursMicrosoft\Nokia1\bin\Debug\net7.0\Nokia1.deps.json
+D:\programowanie\KursMicrosoft\Nokia1\bin\Debug\net7.0\Nokia1.runtimeconfig.json
+D:\programowanie\KursMicrosoft\Nokia1\bin\Debug\net7.0\Nokia1.dll
+D:\programowanie\KursMicrosoft\Nokia1\bin\Debug\net7.0\Nokia1.pdb
+D:\programowanie\KursMicrosoft\Nokia1\obj\Debug\net7.0\Nokia1.dll
+D:\programowanie\KursMicrosoft\Nokia1\obj\Debug\net7.0\refint\Nokia1.dll
+D:\programowanie\KursMicrosoft\Nokia1\obj\Debug\net7.0\Nokia1.pdb
+D:\programowanie\KursMicrosoft\Nokia1\obj\Debug\net7.0\Nokia1.genruntimeconfig.cache
+D:\programowanie\KursMicrosoft\Nokia1\obj\Debug\net7.0\ref\Nokia1.dll
