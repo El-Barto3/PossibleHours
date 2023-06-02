@@ -8,15 +8,24 @@ string solution(int A, int B, int C, int D, int E, int F)
     int maxNumber, maxIndex=0;
     for(int i=digits.Length-1;i>=0;i--)
     {
-        maxNumber = 0;
-        maxIndex = -1;
+        if(digits[i] != 10 && digits[i] <= maxValue[i])
+        {
+            maxNumber = digits[i];
+            maxIndex = i;
+        }
+        else
+        {
+            maxNumber = 0;
+            maxIndex = -1;
+        }
+
         for(int j=0;j<digits.Length;j++)
         {
             if(digits[j]==10)
                 continue;
             else
             {
-                if(digits[j]>maxNumber && digits[j]<= maxValue[i])
+                if(digits[j]>=maxNumber && digits[j]<= maxValue[i])
                 {
                     maxNumber = digits[j];
                     maxIndex = j;
@@ -24,9 +33,19 @@ string solution(int A, int B, int C, int D, int E, int F)
             }
         }
         if(maxIndex != -1)
+        {
+            sorted[i] = maxNumber;
             digits[maxIndex] = 10;
+        }
+        else
+        {
+            if(digits[i] != 10)
+            {
+                sorted[i] = digits[i];
+                digits[i] = 10;
+            }
+        }
             
-        sorted[i] = maxNumber;
     }
     string text = $"{A}{B}{C}{D}{E}{F} = ";
     text += $"{sorted[0]}{sorted[1]}:{sorted[2]}{sorted[3]}:{sorted[4]}{sorted[5]}";
@@ -46,7 +65,7 @@ string solution(int A, int B, int C, int D, int E, int F)
 
 }
 
-for(int a=9;a<10;a++)
+for(int a=0;a<10;a++)
     for(int b=0;b<10;b++)
         for(int c=0;c<10;c++)
             for(int d=0;d<10;d++)
